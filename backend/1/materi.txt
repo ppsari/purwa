@@ -1,0 +1,47 @@
+INTRO
+  1. require module
+    require('./satu.js')
+  2. require a var/function
+    let nama = 'Andi'
+
+    let nama = require('./satu')
+  3. multiple var
+
+      module.exports.nama = nama
+      module.exports.usia = usia
+
+      module.exports = {
+        nama: nama,
+        age: usia
+      }
+
+      module.exports = {
+        nama,
+        age: usia
+      }
+
+BUILD IN MODULE
+  - module => semua yg di load pake require
+  - build in yg dah disediain dulu
+  - contoh
+    + timer => setTimeout, setInterval
+    + assert => unit testing
+    + url 
+    + os => Provides information about the operation system
+    + events
+    + fs
+      + fs buffer & stream
+        fs.writeFile('message.txt', 'Hello Node.js', 'utf8', (err, data)=>{})
+        fs.writeFileSync('halo.txt', 'Halo')
+        fs.appendFile('halo.txt', '\nDunia')// di tambah \ndunia
+        fs.appendFileSync('halo.txt', '\nDunia')// di tambah \ndunia
+      + fs read & write stream
+        let x = fs.readFileSync('halo.txt', 'utf8')
+      + stream vs buffer
+        stream chunk dikit2 jadi ga makan banyak tempat di memory
+      + fs pipe
+        itu biar output jadi input di read-write-zip jadi lebi singkat
+
+HTTP MODULE
+  + serving
+    application/json, text/plain, text/html

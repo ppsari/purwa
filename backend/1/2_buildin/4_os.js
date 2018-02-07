@@ -1,0 +1,25 @@
+const os = require('os')
+
+let namaCPU = os.hostname()
+let osTipe = os.type()
+let osPlatform = os.platform()
+let osRilis = os.release()
+let dirAwal = os.homedir()
+let ramSisa = os.freemem()
+let ramTotal = os.totalmem()
+let dataUser = os.userInfo()
+let dataCPU = os.cpus()
+
+console.log(`namaCPU ${namaCPU}`)
+console.log(`osTipe ${osTipe}`)
+console.log(`osPlatform ${osPlatform}`)
+console.log(`osRilis ${osRilis}`)
+console.log(`dirAwal ${dirAwal}`)
+console.log(`ramSisa ${ramSisa}`)
+console.log(`ramTotal ${ramTotal}`)
+
+console.log('\ndata user')
+console.log(dataUser)
+
+console.log('data cpu')
+console.log(dataCPU)

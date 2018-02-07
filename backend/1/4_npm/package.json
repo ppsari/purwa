@@ -1,0 +1,14 @@
+{
+  "name": "purwa_tes",
+  "version": "1.1.0",
+  "description": "belajar npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "ppsari <poppymighty@gmail.com> (https://github.com/ppsari/)",
+  "license": "ISC"
+}

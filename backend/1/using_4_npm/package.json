@@ -1,0 +1,16 @@
+{
+  "name": "using_4_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ppsari <poppymighty@gmail.com> (https://github.com/ppsari/)",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "purwa_tes": "^1.0.0",
+    "yargs": "^11.0.0"
+  }
+}
