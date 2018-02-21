@@ -1,15 +1,16 @@
 const http = require('http')
 const fs = require('fs')
 
-
+//
 // let x = fs.readFileSync('satu.html', 'utf8')
 // let server = http.createServer(function(req,res){
 //      console.log('Request : ' + req.url)
 //      res.writeHead(200, {'Content-Type':'text/html'})
 //      res.end(x)
+//     //  res.end('<h2>page not found</h2>')
 // })
-
-//using read stream
+//
+// // using read stream
 let server = http.createServer(function(req,res){
    console.log('Request : ' + req.url)
    res.writeHead(200, {'Content-Type':'text/html'})

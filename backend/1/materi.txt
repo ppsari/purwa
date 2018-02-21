@@ -26,7 +26,7 @@ BUILD IN MODULE
   - contoh
     + timer => setTimeout, setInterval
     + assert => unit testing
-    + url 
+    + url
     + os => Provides information about the operation system
     + events
     + fs
@@ -43,5 +43,54 @@ BUILD IN MODULE
         itu biar output jadi input di read-write-zip jadi lebi singkat
 
 HTTP MODULE
-  + serving
-    application/json, text/plain, text/html
+  + step
+    server = http.createServer(function(req,res){
+      //req (request)
+      //  req.url
+      // res (response)
+      //      status 200 ok, 404 notFound, 500 internal srvr error
+      //      contentType: application/json, text/plain, text/html
+      //  res.writeHead(status, contentType)
+      res.end
+
+    })
+
+    server.listen(port)
+
+EXPLORING NPM
+  + npmjs
+  + bukan buildin jadi harus cari dulu
+  + package => file yg ada package.json
+    - package.hson definisiin ttg suatu app
+  + module => semua yg ada di require
+  + start
+    - npm -v (ga harus terus2an ya)
+    - npm init => bikin package.json file
+    - npm i -S packageName
+    - npm install => install everything in package.json
+
+    bikin
+    - npm publish
+    - npm version patch | minor | major
+  + sample
+    - nodemon => autostart
+    - lodash
+    - yargs
+
+  + bikin project
+    - npm init => jadi package.json
+    - npm i -S namaPackage
+
+REST API (Representational state transfer) => archi style
+  1. LoopBack
+    - npm i -g loopback-cli
+    - on terminal
+        lb
+        masukin nama
+        versi lb lsg enter current
+        api-server
+      create model
+
+  2. Express
+  3. Helpful tools:
+    postman

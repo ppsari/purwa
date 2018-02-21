@@ -1,17 +1,16 @@
 {
-  "name": "using_4_npm",
+  "name": "3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ppsari <poppymighty@gmail.com> (https://github.com/ppsari/)",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.5",
-    "publish_npm_popi": "^1.0.2",
-    "purwa_tes": "^1.0.0",
-    "yargs": "^11.0.0"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
   }
 }

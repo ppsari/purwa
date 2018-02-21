@@ -3,6 +3,7 @@ const _ = require('lodash')
 console.log(_.isString(135))
 console.log(_.isString('Startup'))
 
+
 console.log(_.capitalize('GOOGLE'))
 console.log(_.upperFirst('facebook'))
 console.log(_.upperCase('alibaba'))

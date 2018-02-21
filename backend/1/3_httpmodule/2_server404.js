@@ -9,6 +9,6 @@ var server = http.createServer(function(req,res){
 })
 
 
-server.listen(1234, '127.127.127.127');
-// buka di browser = 127.127.127.127 : 1234
-console.log('Server aktif. Listening port 1234.');
+server.listen(3000);
+// buka di browser = localhost : 3000
+console.log('Server aktif. Listening port 3000.');

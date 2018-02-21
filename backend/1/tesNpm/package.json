@@ -1,17 +1,17 @@
 {
-  "name": "using_4_npm",
+  "name": "tesnpm",
   "version": "1.0.0",
-  "description": "",
+  "description": "belajar npm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "javascript"
+  ],
   "author": "ppsari <poppymighty@gmail.com> (https://github.com/ppsari/)",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.5",
-    "publish_npm_popi": "^1.0.2",
-    "purwa_tes": "^1.0.0",
-    "yargs": "^11.0.0"
+    "lodash": "^4.17.5"
   }
 }
